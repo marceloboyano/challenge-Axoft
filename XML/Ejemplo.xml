@@ -1,0 +1,85 @@
+<facturas>
+    <!-- Factura 1 -->
+    <factura>
+        <numero>1</numero>
+        <fecha>31/12/2020</fecha>
+        <cliente>
+            <CUIL>20345678901</CUIL>
+            <nombre>Juan Pérez</nombre>
+            <direccion>Calle 123, Ciudad</direccion>
+        </cliente>
+        <renglones>
+            <renglon>
+                <codigoArticulo>AR001</codigoArticulo>
+                <descripcion>Producto 1</descripcion>
+                <precioUnitario>10.00</precioUnitario>
+                <cantidad>3</cantidad>
+                <total>30.00</total>
+            </renglon>
+            <renglon>
+                <codigoArticulo>AR002</codigoArticulo>
+                <descripcion>Producto 2</descripcion>
+                <precioUnitario>20.00</precioUnitario>
+                <cantidad>2</cantidad>
+                <total>40.00</total>
+            </renglon>
+            <!-- Más renglones aquí -->
+        </renglones>
+        <totalSinImpuestos>70.00</totalSinImpuestos>
+        <iva>21.00</iva>
+        <importeIva>14.70</importeIva>
+        <totalConImpuestos>84.70</totalConImpuestos>
+    </factura>
+    
+    <!-- Factura 2 -->
+    <factura>
+        <numero>2</numero>
+        <fecha>01/01/2021</fecha>
+        <cliente>
+            <CUIL>30567890123</CUIL>
+            <nombre>María Gómez</nombre>
+            <direccion>Avenida 456, Ciudad</direccion>
+        </cliente>
+        <renglones>
+            <renglon>
+                <codigoArticulo>AR003</codigoArticulo>
+                <descripcion>Producto 3</descripcion>
+                <precioUnitario>15.00</precioUnitario>
+                <cantidad>5</cantidad>
+                <total>75.00</total>
+            </renglon>
+            <!-- Más renglones aquí -->
+        </renglones>
+        <totalSinImpuestos>75.00</totalSinImpuestos>
+        <iva>21.00</iva>
+        <importeIva>15.75</importeIva>
+        <totalConImpuestos>90.75</totalConImpuestos>
+    </factura>
+    
+    <!-- Repite la estructura para las facturas 3 a 20 con datos únicos -->
+    
+    <!-- Factura 20 -->
+    <factura>
+        <numero>20</numero>
+        <fecha>15/01/2021</fecha>
+        <cliente>
+            <CUIL>90876543210</CUIL>
+            <nombre>Luis Rodríguez</nombre>
+            <direccion>Plaza 789, Ciudad</direccion>
+        </cliente>
+        <renglones>
+            <renglon>
+                <codigoArticulo>AR020</codigoArticulo>
+                <descripcion>Producto 20</descripcion>
+                <precioUnitario>25.00</precioUnitario>
+                <cantidad>1</cantidad>
+                <total>25.00</total>
+            </renglon>
+            <!-- Más renglones aquí -->
+        </renglones>
+        <totalSinImpuestos>25.00</totalSinImpuestos>
+        <iva>21.00</iva>
+        <importeIva>5.25</importeIva>
+        <totalConImpuestos>20.25</totalConImpuestos>
+    </factura>
+</facturas>
